@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173", // Update this to your frontend domain in production
+    origin: "https://shineastheticfind.onrender.com", // Update this to your frontend domain in production
     credentials: true,
   })
 );

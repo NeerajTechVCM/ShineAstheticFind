@@ -8,7 +8,7 @@ export default function DashboardHome() {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await fetch("http://localhost:8080/getUsers", {
+        const res = await fetch("/getUsers", {
           credentials: "include",
         });
         const data = await res.json();
@@ -28,7 +28,7 @@ export default function DashboardHome() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await fetch("http://localhost:8080/getAllProducts", {
+        const res = await fetch("/getAllProducts", {
           method: "GET",
           headers: { "Content-Type": "application/json" },
           credentials: "include",
