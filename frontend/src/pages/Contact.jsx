@@ -72,7 +72,7 @@ export default function ContactPage() {
           {/* Social Icons */}
           <div className="flex flex-col gap-6 items-center justify-center text-[0815fc]">
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/shineaesthetic06?utm_source=qr&igsh=MWZxaXNkbjBncm8yNA=="
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-lg hover:text-rose-800 transition"
@@ -81,7 +81,7 @@ export default function ContactPage() {
               Instagram
             </a>
             <a
-              href="https://www.pinterest.com/"
+              href="https://pin.it/1KHSJyWIt"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-lg hover:text-rose-800 transition"
@@ -90,7 +90,7 @@ export default function ContactPage() {
               Pinterest
             </a>
             <a
-  href="https://www.twitter.com/"
+  href="https://x.com/ShinePicks06?t=jRMakF46yOC047bIdJrzxg&s=08"
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center gap-3 text-lg hover:text-blue-600 transition"
@@ -98,15 +98,7 @@ export default function ContactPage() {
   <FaTwitter className="text-2xl" />
   Twitter
 </a>
-            <a
-              href="https://www.youtube.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 text-lg hover:text-rose-800 transition"
-            >
-              <FaYoutube className="text-2xl" />
-              YouTube
-            </a>
+           
             <a
               href="https://wa.me/6391318835"
               target="_blank"

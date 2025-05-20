@@ -21,7 +21,7 @@ export default function Footer() {
 
         {/* Navigation */}
         <div className="flex flex-col space-y-2 text-sm">
-          <h4 className="text-lg font-semibold text-[#515153]  mb-2">Quick Links</h4>
+          <h4 className="text-lg font-semibold text-[#000000]  mb-2">Quick Links</h4>
           <a href="/" className="hover:text-rose-700 transition">Home</a>
           <a href="/about" className="hover:text-rose-700 transition">About</a>
           <a href="/products" className="hover:text-rose-700 transition">Products</a>
@@ -30,20 +30,18 @@ export default function Footer() {
 
         {/* Social Media */}
         <div className="space-y-3">
-          <h4 className="text-lg font-semibold text-[#515153] mb-2">Connect</h4>
+          <h4 className="text-lg font-semibold text-[#000000] mb-2">Connect</h4>
           <div className="flex gap-4 text-[0815fc] text-xl">
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/shineaesthetic06?utm_source=qr&igsh=MWZxaXNkbjBncm8yNA==" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="hover:text-rose-800 transition" />
             </a>
-            <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://pin.it/1KHSJyWIt" target="_blank" rel="noopener noreferrer">
               <FaPinterestP className="hover:text-rose-800 transition" />
             </a>
-            <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/ShinePicks06?t=jRMakF46yOC047bIdJrzxg&s=08" target="_blank" rel="noopener noreferrer">
               <FaTwitter className="hover:text-rose-800 transition" />
             </a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-              <FaYoutube className="hover:text-rose-800 transition" />
-            </a>
+           
             <a   href="https://wa.me/6391318835" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="hover:text-rose-800 transition" />
             </a>

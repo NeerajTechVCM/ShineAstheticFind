@@ -7,7 +7,7 @@ export default function AboutPage() {
       <div className="max-w-5xl mx-auto text-center space-y-12">
         {/* Heading */}
         <div className="space-y-4">
-          <h2 className="text-4xl md:text-5xl font-boldtext-[0815fc]">
+          <h2 className="text-4xl md:text-5xl font-bold leading-tight text-[0815fc]">
             About Shine’s Aesthetic 🌷
           </h2>
           <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
@@ -46,7 +46,7 @@ export default function AboutPage() {
 
         {/* Closing Quote or Highlight */}
         <div className="mt-16">
-          <blockquote className="italic text-xl md:text-2xl text-rose-500 font-medium max-w-3xl mx-auto">
+          <blockquote className=" font-[#2D5A90] text-xl md:text-2xl text-[#6f96d1] font-medium max-w-3xl mx-auto">
             “Your Vibe, Your Vision, Your Value. 🌷”
           </blockquote>
           <p className="text-sm mt-2 text-gray-500">– Shine Picks</p>
