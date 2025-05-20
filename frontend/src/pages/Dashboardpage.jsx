@@ -85,7 +85,7 @@ export default function DashboardHome() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {latestThree.map((product) => (
               <div key={product._id} className="border rounded-lg p-4 shadow-sm hover:shadow-md transition">
-                <img src={product.image} alt={product.name} className="h-40 w-full object-cover rounded mb-2" />
+                <img src={product.image} alt={product.name} className="h-40 w-full object-contain rounded mb-2" />
                 <h4 className="font-semibold text-lg">{product.name}</h4>
                 <p className="text-gray-600 text-sm">{product.description.slice(0, 60)}...</p>
               </div>

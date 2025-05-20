@@ -89,7 +89,7 @@ const ViewProducts = () => {
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-48 object-cover"
+                className="w-full h-52 object-contain"
               />
               <div className="p-4 space-y-2 flex-grow">
                 <h3 className="text-lg font-semibold text-gray-800">

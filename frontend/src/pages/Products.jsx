@@ -58,7 +58,7 @@ export default function ProductsPage() {
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-52 object-cover"
+                className="w-full h-56 object-contain"
               />
               <div className="p-6 flex flex-col flex-grow justify-between space-y-4">
                 <div>
