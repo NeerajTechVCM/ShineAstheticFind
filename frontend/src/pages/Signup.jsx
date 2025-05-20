@@ -53,7 +53,7 @@ export default function Signup() {
         {/* Header */}
         <div className="text-center space-y-2">
           <FaUserPlus className="text-4xl mx-auto text-rose-500" />
-          <h2 className="text-2xl font-bold text-rose-600">Create an Account</h2>
+          <h2 className="text-2xl font-bold text-[0815fc]">Create an Account</h2>
           <p className="text-sm text-gray-500">Join the Shine Aesthetic community today 🌸</p>
         </div>
 
@@ -112,7 +112,7 @@ export default function Signup() {
 
           <button
             type="submit"
-            className="w-full bg-rose-500 hover:bg-rose-600 text-white py-2 px-4 rounded-lg font-medium shadow-md transition"
+            className="w-full bg-[#1F334E] hover:bg-rose-600 text-white py-2 px-4 rounded-lg font-medium shadow-md transition"
           >
             Sign Up
           </button>

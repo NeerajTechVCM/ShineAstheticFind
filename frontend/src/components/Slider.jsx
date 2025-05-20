@@ -18,7 +18,7 @@ const ShineSlider = () => {
       title: "Shine'sAestheticFind🌷",
       subtitle: "ShinePicks",
       content:
-        "Curated by Shine — For the Aligned & Ambitious. A space for clarity, creation, and elevation. Explore things that inspire your inner glow from ideas to aesthetics. Your vibe, your vision, your value. 🌸",
+        "No chaos, no guesswork — just trusted, beautiful finds in one place.Shop smarter with handpicked Amazon lists that save your time and energy.Curated with clarity. Styled with intention",
       image: Banner1,
     },
     {
@@ -49,8 +49,8 @@ const ShineSlider = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center bg-white py-8 px-6 rounded-xl shadow-md">
                 {/* Left: Text */}
                 <div className="space-y-3">
-                  <h3 className="text-pink-600 font-bold text-lg">{slide.title}</h3>
-                  <h2 className="text-2xl font-semibold text-gray-800">{slide.subtitle}</h2>
+                  <h3 className="text-[0815fc] font-bold text-lg">{slide.title}</h3>
+                  <h2 className="text-2xl font-semibold text-[#455B73]">{slide.subtitle}</h2>
                   <p className="text-gray-600">{slide.content}</p>
                 </div>
 
@@ -59,7 +59,7 @@ const ShineSlider = () => {
                   <img
                     src={slide.image}
                     alt={slide.subtitle}
-                    className="w-full h-64 object-cover rounded-lg shadow"
+                    className="w-full h-96 object-cover rounded-lg shadow"
                   />
                 </div>
               </div>
@@ -67,8 +67,8 @@ const ShineSlider = () => {
           ))}
         </CarouselContent>
 
-        <CarouselPrevious className="absolute top-1/2 left-2 -translate-y-1/2 z-10 bg-pink-200 p-2 rounded-full shadow hover:bg-pink-300" />
-        <CarouselNext className="absolute top-1/2 right-2 -translate-y-1/2 z-10 bg-pink-200 p-2 rounded-full shadow hover:bg-pink-300" />
+        <CarouselPrevious className="absolute top-1/2 left-2 -translate-y-1/2 z-10 text-white bg-[#0815fc] p-2 rounded-full shadow" />
+        <CarouselNext className="absolute top-1/2 right-2 -translate-y-1/2 z-10 text-white bg-[#0815fc] p-2 rounded-full shadow" />
       </Carousel>
     </div>
   );

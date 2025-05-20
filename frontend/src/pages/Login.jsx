@@ -49,7 +49,7 @@ export default function AdminLogin() {
         {/* Header */}
         <div className="text-center space-y-2">
           <FaUserShield className="text-4xl mx-auto text-rose-500" />
-          <h2 className="text-2xl font-bold text-rose-600">Admin Login</h2>
+          <h2 className="text-2xl font-bold text-[0815fc]">Admin Login</h2>
           <p className="text-sm text-gray-500">
             Enter your credentials to access the admin panel.
           </p>
@@ -97,7 +97,7 @@ export default function AdminLogin() {
 
           <button
             type="submit"
-            className="w-full bg-rose-500 hover:bg-rose-600 text-white py-2 px-4 rounded-lg font-medium shadow-md transition"
+            className="w-full bg-[#1F334E] hover:bg-rose-600 text-white py-2 px-4 rounded-lg font-medium shadow-md transition"
           >
             Login
           </button>

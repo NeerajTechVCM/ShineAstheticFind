@@ -25,7 +25,7 @@ export default function ContactPage() {
 
     const submissionData = {
       ...formData,
-      access_key: "2f58e11f-132d-4e5a-8863-5bb24855af9f",
+      access_key: "3365c9a5-32be-498e-a2b5-521dd658933e",
     };
 
     try {
@@ -53,15 +53,15 @@ export default function ContactPage() {
   };
 
   return (
-    <section className="w-full min-h-screen bg-gradient-to-b from-rose-50 via-pink-50 to-amber-100 px-6 md:px-20 py-20 text-center">
+    <section className="w-full min-h-screen  bg-gradient-to-r from-[#DAD4C8] to-[#F5F6EA] px-6 md:px-20 py-20 text-center">
       <div className="max-w-5xl mx-auto space-y-16">
         {/* Heading */}
         <div className="space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-rose-600">
+          <h2 className="text-4xl md:text-5xl font-bold text-[0815fc]">
             Connect With Shine 🌷
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Whether it's to say hi, collaborate, or get inspired — we’d love to
+            Whether it's to say Hi, Collaborate, or get Inspired — we’d love to
             hear from you. Connect through your favorite platform or send us a
             message directly.
           </p>
@@ -70,7 +70,7 @@ export default function ContactPage() {
         {/* Grid Layout: Social + Form */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
           {/* Social Icons */}
-          <div className="flex flex-col gap-6 items-center justify-center text-rose-600">
+          <div className="flex flex-col gap-6 items-center justify-center text-[0815fc]">
             <a
               href="https://www.instagram.com/"
               target="_blank"
@@ -182,7 +182,7 @@ export default function ContactPage() {
 
             <button
               type="submit"
-              className="bg-rose-500 hover:bg-rose-600 text-white px-6 py-2 rounded-lg shadow-md flex items-center gap-2 mx-auto"
+              className="bg-[#1F334E] text-white px-6 py-2 rounded-lg shadow-md flex items-center gap-2 mx-auto"
             >
               <MdEmail className="text-xl" />
               Send Message

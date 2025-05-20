@@ -38,11 +38,11 @@ export default function ProductsPage() {
       }, []);
     
   return (
-    <section className="w-full min-h-screen bg-gradient-to-b from-rose-50 via-pink-50 to-amber-50 px-6 md:px-20 py-16">
+    <section className="w-full min-h-screen   bg-gradient-to-r from-[#DAD4C8] to-[#F5F6EA] px-6 md:px-20 py-16">
       <div className="max-w-6xl mx-auto text-center space-y-10">
         {/* Header */}
         <div className="space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-rose-600">Shine Picks ✨</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-[0815fc]">Shine Picks ✨</h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             Discover hand-picked aesthetic essentials to help you align your energy, elevate your space, and express your glow.
           </p>
@@ -62,12 +62,12 @@ export default function ProductsPage() {
               />
               <div className="p-6 flex flex-col flex-grow justify-between space-y-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-rose-600">{product.name}</h3>
+                  <h3 className="text-xl font-semibold text-[0815fc]">{product.name}</h3>
                   <p className="text-gray-600 mt-2 text-sm">{product.description}</p>
                 </div>
 
                 <a href={product.link} target="_blank" rel="noopener noreferrer">
-                  <Button className="w-full mt-4 flex items-center justify-center gap-2 bg-rose-500 hover:bg-rose-600 text-white shadow-md">
+                  <Button className="w-full mt-4 flex items-center justify-center gap-2 bg-[#1F334E] hover:bg-rose-600 text-white shadow-md">
                     <ShoppingBag className="w-4 h-4" />
                     View Product
                   </Button>

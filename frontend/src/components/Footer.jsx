@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Brand Info */}
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold text-rose-600">Shine'sAestheticFind 🌷</h2>
+          <h2 className="text-2xl font-bold text-[0815fc]">Shine'sAestheticFind 🌷</h2>
           <p className="text-sm">
             A space for clarity, creation, and elevation. Curated picks to spark your inner glow.
           </p>
@@ -21,7 +21,7 @@ export default function Footer() {
 
         {/* Navigation */}
         <div className="flex flex-col space-y-2 text-sm">
-          <h4 className="text-lg font-semibold text-rose-500 mb-2">Quick Links</h4>
+          <h4 className="text-lg font-semibold text-[#515153]  mb-2">Quick Links</h4>
           <a href="/" className="hover:text-rose-700 transition">Home</a>
           <a href="/about" className="hover:text-rose-700 transition">About</a>
           <a href="/products" className="hover:text-rose-700 transition">Products</a>
@@ -30,8 +30,8 @@ export default function Footer() {
 
         {/* Social Media */}
         <div className="space-y-3">
-          <h4 className="text-lg font-semibold text-rose-500 mb-2">Connect</h4>
-          <div className="flex gap-4 text-rose-600 text-xl">
+          <h4 className="text-lg font-semibold text-[#515153] mb-2">Connect</h4>
+          <div className="flex gap-4 text-[0815fc] text-xl">
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="hover:text-rose-800 transition" />
             </a>
