@@ -42,14 +42,14 @@ export default function ProductsPage() {
       <div className="max-w-6xl mx-auto text-center space-y-10">
         {/* Header */}
         <div className="space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-[0815fc]">Shine Picks ✨</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-[0815fc]">Shine Picks ✨</h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             Discover hand-picked aesthetic essentials to help you align your energy, elevate your space, and express your glow.
           </p>
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-10">
           {products.map((product) => (
             <div
               key={product.id}
@@ -58,7 +58,7 @@ export default function ProductsPage() {
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-56 object-cover"
+                className="w-full h-52 object-cover"
               />
               <div className="p-6 flex flex-col flex-grow justify-between space-y-4">
                 <div>

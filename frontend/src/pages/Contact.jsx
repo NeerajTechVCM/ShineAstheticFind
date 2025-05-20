@@ -57,7 +57,7 @@ export default function ContactPage() {
       <div className="max-w-5xl mx-auto space-y-16">
         {/* Heading */}
         <div className="space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-[0815fc]">
+          <h2 className="text-3xl md:text-5xl font-bold text-[0815fc]">
             Connect With Shine 🌷
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">

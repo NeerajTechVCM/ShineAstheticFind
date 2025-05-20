@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-rose-100 text-gray-700 py-10 border-t border-rose-200">
+    <footer className="bg-[#E5E2DB] text-gray-700 py-10 border-t border-rose-200">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Brand Info */}
         <div className="space-y-3">

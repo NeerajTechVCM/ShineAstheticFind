@@ -46,7 +46,7 @@ const ShineSlider = () => {
         <CarouselContent>
           {slides.map((slide, index) => (
             <CarouselItem key={index}>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center bg-white py-8 px-6 rounded-xl shadow-md">
+              <div className="grid grid-cols-1  bg-gray-100 md:grid-cols-2 gap-6 items-center py-8 px-6 rounded-xl shadow-md">
                 {/* Left: Text */}
                 <div className="space-y-3">
                   <h3 className="text-[0815fc] font-bold text-lg">{slide.title}</h3>
@@ -67,8 +67,8 @@ const ShineSlider = () => {
           ))}
         </CarouselContent>
 
-        <CarouselPrevious className="absolute top-1/2 left-2 -translate-y-1/2 z-10 text-white bg-[#878bdd] p-2 rounded-full shadow" />
-        <CarouselNext className="absolute top-1/2 right-2 -translate-y-1/2 z-10 text-white  bg-[#878bdd] p-2 rounded-full shadow" />
+        <CarouselPrevious className="absolute top-1/2 bg-white/10 backdrop-blur-md left-2 -translate-y-1/2 z-10 text-black border-white/20  p-2 rounded-full shadow" />
+        <CarouselNext className="absolute top-1/2 right-2 -translate-y-1/2 z-10 text-black  bg-white/10 backdrop-blur-md  border-white/20 p-2 rounded-full shadow" />
       </Carousel>
     </div>
   );
